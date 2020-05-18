@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <!-- SPACE COMBAT -->
+    
+    <SimulationDescriptor Name="FactionTraitBigFleets1" Type="FactionTrait">
+        <Modifier TargetProperty="MaximumCommandPoints" Operation="Addition" Value="1" Path="ClassEmpire"/>
+        <Modifier TargetProperty="MaximumCommandPoints" Operation="Percent" Value="0.05" Path="ClassEmpire"/>
+        <Modifier TargetProperty="GarrisonMoneyUpkeep"  Operation="Percent"  Value="-0.1" Path="ClassEmpire//ClassGarrison/ClassShip"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="FactionTraitBigFleets2" Type="FactionTrait">
+        <Modifier TargetProperty="MaximumCommandPoints" Operation="Addition" Value="2" Path="ClassEmpire"/>
+        <Modifier TargetProperty="MaximumCommandPoints" Operation="Percent" Value="0.1" Path="ClassEmpire"/>
+        <Modifier TargetProperty="GarrisonMoneyUpkeep"  Operation="Percent"  Value="-0.25" Path="ClassEmpire//ClassGarrison/ClassShip"/>
+    </SimulationDescriptor>
+    
+    <!-- MOVEMENT -->
+    
+        <!-- Increase movement speed-->
+    <SimulationDescriptor Name="FactionTraitFastTraveler1" Type="FactionTrait">
+        <Modifier TargetProperty="GlobalSpeed"        Operation="Percent"  Value="0.15"   Path="ClassEmpire/ClassGarrison/ClassShip"/>
+        <Modifier TargetProperty="MaximumMovement"        Operation="Addition"  Value="1"   Path="ClassEmpire/ClassGarrison/ClassShip"/>
+        <Modifier TargetProperty="MaximumMovement"        Operation="Addition"  Value="1"   Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip" TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="FactionTraitFastTraveler2" Type="FactionTrait">
+        <Modifier TargetProperty="GlobalSpeed"        Operation="Percent"  Value="0.05"   Path="ClassEmpire/ClassGarrison/ClassShip"/>
+        <Modifier TargetProperty="MaximumMovement"        Operation="Addition"  Value="2"   Path="ClassEmpire/ClassGarrison/ClassShip"/>
+        <Modifier TargetProperty="MaximumMovement"        Operation="Addition"  Value="2"   Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip" TooltipHidden="true"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="FactionTraitSlowTraveler1" Type="FactionTrait">
+        <Modifier TargetProperty="GlobalSpeed"        Operation="Percent"  Value="-0.04"   Path="ClassEmpire/ClassGarrison/ClassShip"/>
+        <Modifier TargetProperty="MaximumMovement"        Operation="Addition"  Value="-1"   Path="ClassEmpire/ClassGarrison/ClassShip"/>
+        <Modifier TargetProperty="MaximumMovement"        Operation="Addition"  Value="-1"   Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip" TooltipHidden="true"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="FactionTraitSlowTraveler2" Type="FactionTrait">
+        <Modifier TargetProperty="GlobalSpeed"        Operation="Percent"  Value="-0.12"   Path="ClassEmpire/ClassGarrison/ClassShip"/>
+        <Modifier TargetProperty="MaximumMovement"        Operation="Addition"  Value="-2"   Path="ClassEmpire/ClassGarrison/ClassShip"/>
+        <Modifier TargetProperty="MaximumMovement"        Operation="Addition"  Value="-2"   Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip" TooltipHidden="true"/>
+    </SimulationDescriptor>
+    
+    <!-- HABITABILITY -->
+    
+    <SimulationDescriptor Name="FactionTraitInimical" Type="FactionTrait"> <!--Biophobic-->
+        <BinaryModifier     TargetProperty="Happiness"          Operation="Addition" Left="10" BinaryOperation="Multiplication" Right="$(Population)"    Path="ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeMeager" SearchValueFromPath="true"  />
+        <BinaryModifier     TargetProperty="Happiness"          Operation="Addition" Left="-2" BinaryOperation="Multiplication" Right="$(Population)"    Path="ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeTeeming" SearchValueFromPath="true"  />
+        <Modifier TargetProperty="MaximumPopulation"        Operation="Addition"  Value="1"   Path="ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeMeager"/>
+        <Modifier TargetProperty="MaximumPopulation"        Operation="Addition"  Value="-1"   Path="ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeTeeming"/>
+        <Modifier TargetProperty="MaximumPopulation"        Operation="Addition"  Value="1"   Path="ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeGas"/>
+    </SimulationDescriptor>
+
+    <!-- GROUND COMBAT -->
+
+    <SimulationDescriptor Name="FactionTraitBrilliantStrategists1" Type="FactionTrait">
+        <Modifier TargetProperty="InfantryMinDamages" Operation="Percent" Value="0.1" Path="ClassEmpire"/>
+        <Modifier TargetProperty="InfantryMaxDamages" Operation="Percent" Value="0.15" Path="ClassEmpire"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="FactionTraitBrilliantStrategists2" Type="FactionTrait">
+        <Modifier TargetProperty="InfantryMinDamages" Operation="Percent" Value="0.2" Path="ClassEmpire"/>
+        <Modifier TargetProperty="InfantryMaxDamages" Operation="Percent" Value="0.3" Path="ClassEmpire"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="FactionTraitPoorStrategists1" Type="FactionTrait">
+        <Modifier TargetProperty="InfantryMinDamages" Operation="Percent" Value="-0.15" Path="ClassEmpire"/>
+        <Modifier TargetProperty="InfantryMaxDamages" Operation="Percent" Value="-0.1" Path="ClassEmpire"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="FactionTraitPoorStrategists2" Type="FactionTrait">
+        <Modifier TargetProperty="InfantryMinDamages" Operation="Percent" Value="-0.3" Path="ClassEmpire"/>
+        <Modifier TargetProperty="InfantryMaxDamages" Operation="Percent" Value="-0.2" Path="ClassEmpire"/>
+    </SimulationDescriptor>
+</Datatable>
