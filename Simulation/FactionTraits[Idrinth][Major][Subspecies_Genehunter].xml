@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/FactionTrait.xsd">
+    <FactionTrait Name="FactionTraitMinorGeneHunterAmoeba" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartAmoeba" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+        <Command Name="AddMinorPopulation" Arguments="AffinityAmoeba,1" Priority="100"/>
+        <SimulationDescriptorReference Name="FactionTraitMinorAmoeba"/>
+        <Prerequisites>AffinityGameplayHoratio</Prerequisites> 
+    </FactionTrait>
+
+    <FactionTrait Name="FactionTraitMinorGeneHunterBenthys" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartBenthys" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="10">
+        <Command Name="AddMinorPopulation" Arguments="AffinityBenthys,1" Priority="100"/>
+        <SimulationDescriptorReference Name="FactionTraitMinorBenthys"/>
+        <Prerequisites>AffinityGameplayHoratio</Prerequisites> 
+    </FactionTrait>
+
+    <FactionTrait Name="FactionTraitMinorGeneHunterBots" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartBots" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="10">
+        <Command Name="AddMinorPopulation" Arguments="AffinityBots,1" Priority="100"/>
+        <SimulationDescriptorReference Name="FactionTraitMinorBots"/>
+        <Prerequisites>AffinityGameplayHoratio</Prerequisites> 
+    </FactionTrait>
+
+    <FactionTrait Name="FactionTraitMinorGeneHunterDeuyivans" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartDeuyivans" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="10">
+        <Command Name="AddMinorPopulation" Arguments="AffinityDeuyivans,1" Priority="100"/>
+        <SimulationDescriptorReference Name="FactionTraitMinorDeuyivans"/>
+        <Prerequisites>AffinityGameplayHoratio</Prerequisites> 
+    </FactionTrait>
+
+    <FactionTrait Name="FactionTraitMinorGeneHunterHaroshems" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartHaroshems" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="10">
+        <Command Name="AddMinorPopulation" Arguments="AffinityHaroshems,1" Priority="100"/>
+        <SimulationDescriptorReference Name="FactionTraitMinorHaroshems"/>
+        <Prerequisites>AffinityGameplayHoratio</Prerequisites> 
+    </FactionTrait>
+
+    <FactionTrait Name="FactionTraitMinorGeneHunterHisshos" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartHisshos" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+        <Command Name="AddMinorPopulation" Arguments="AffinityHisshos,1" Priority="100"/>
+        <SimulationDescriptorReference Name="FactionTraitMinorHisshos"/>
+        <Prerequisites>AffinityGameplayHoratio</Prerequisites> 
+    </FactionTrait>
+
+    <FactionTrait Name="FactionTraitMinorGeneHunterMavros" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartMavros" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="10">
+        <Command Name="AddMinorPopulation" Arguments="AffinityMavros,1" Priority="100"/>
+        <SimulationDescriptorReference Name="FactionTraitMinorMavros"/>
+        <Prerequisites>AffinityGameplayHoratio</Prerequisites> 
+    </FactionTrait>
+
+    <FactionTrait Name="FactionTraitMinorGeneHunterPilgrims" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartPilgrims" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+        <Command Name="AddMinorPopulation" Arguments="AffinityPilgrims,1" Priority="100"/>
+        <SimulationDescriptorReference Name="FactionTraitMinorPilgrims"/>
+        <Prerequisites>AffinityGameplayHoratio</Prerequisites> 
+    </FactionTrait>
+
+    <FactionTrait Name="FactionTraitMinorGeneHunterZvali" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartZvali" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="10">
+        <Command Name="AddMinorPopulation" Arguments="AffinityZvali,1" Priority="100"/>
+        <SimulationDescriptorReference Name="FactionTraitMinorZvali"/>
+        <Prerequisites>AffinityGameplayHoratio</Prerequisites> 
+    </FactionTrait>
+
+    <FactionTrait Name="FactionTraitMinorGeneHunterTikanans" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartTikanan" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+        <Command Name="AddMinorPopulation" Arguments="AffinityTikanans,1" Priority="100"/>
+        <SimulationDescriptorReference Name="FactionTraitMinorTikanans"/>
+        <Prerequisites>AffinityGameplayHoratio</Prerequisites> 
+    </FactionTrait>
+
+    <FactionTrait Name="FactionTraitMinorGeneHunterGnashasts" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartGnashasts" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+        <Command Name="AddMinorPopulation" Arguments="AffinityGnashasts,1" Priority="100"/>
+        <SimulationDescriptorReference Name="FactionTraitMinorGnashasts"/>
+        <Prerequisites>AffinityGameplayHoratio</Prerequisites> 
+    </FactionTrait>
+
+    <FactionTrait Name="FactionTraitMinorGeneHunterEyders" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartEyders" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="10">
+        <Command Name="AddMinorPopulation" Arguments="AffinityEyders,1" Priority="100"/>
+        <SimulationDescriptorReference Name="FactionTraitMinorEyders"/>
+        <Prerequisites>AffinityGameplayHoratio</Prerequisites> 
+    </FactionTrait>
+
+    <FactionTrait Name="FactionTraitMinorGeneHunterNiris" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartNiris" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="10">
+        <Command Name="AddMinorPopulation" Arguments="AffinityNiris,1" Priority="-100"/>
+        <SimulationDescriptorReference Name="FactionTraitMinorNiris"/>
+        <Prerequisites>AffinityGameplayHoratio</Prerequisites> 
+    </FactionTrait>
+
+    <FactionTrait Name="FactionTraitMinorGeneHunterBhagabas" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartBhagabas" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+        <Command Name="AddMinorPopulation" Arguments="AffinityBhagabas,1" Priority="100"/>
+        <SimulationDescriptorReference Name="FactionTraitMinorBhagabas"/>
+        <Prerequisites>AffinityGameplayHoratio</Prerequisites> 
+    </FactionTrait>
+
+    <FactionTrait Name="FactionTraitMinorGeneHunterRemnant" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartRemnant" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+        <Command Name="AddMinorPopulation" Arguments="AffinityRemnant,1" Priority="100"/>
+        <SimulationDescriptorReference Name="FactionTraitMinorRemnant"/>
+        <Prerequisites>AffinityGameplayHoratio</Prerequisites> 
+    </FactionTrait>
+
+    <FactionTrait Name="FactionTraitMinorGeneHunterPulsos" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartPulsos" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+        <Command Name="AddMinorPopulation" Arguments="AffinityPulsos,1" Priority="100"/>
+        <SimulationDescriptorReference Name="FactionTraitMinorPulsos"/>
+        <Prerequisites>AffinityGameplayHoratio</Prerequisites> 
+    </FactionTrait>
+
+    <FactionTrait Name="FactionTraitMinorGeneHunterBasryxo" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartPulsos" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+        <Command Name="AddMinorPopulation" Arguments="AffinityBasryxo,1" Priority="100"/>
+        <SimulationDescriptorReference Name="FactionTraitMinorBasryxo"/>
+        <Prerequisites>AffinityGameplayHoratio</Prerequisites> 
+    </FactionTrait>
+
+    <FactionTrait Name="FactionTraitMinorGeneHunterGreenman" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartGreenman" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="10">
+        <Command Name="AddMinorPopulation" Arguments="AffinityGreenman,1" Priority="100"/>
+        <SimulationDescriptorReference Name="FactionTraitMinorGreenman"/>
+        <Prerequisites>AffinityGameplayHoratio</Prerequisites> 
+    </FactionTrait>
+    
+    <FactionTrait Name="FactionTraitMinorGeneHunterHarmony" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartHarmony" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+        <Command Name="AddMinorPopulation" Arguments="AffinityHarmony,1" Priority="100"/>
+        <SimulationDescriptorReference Name="FactionTraitMinorHarmony"/>
+        <Prerequisites>AffinityGameplayHoratio</Prerequisites> 
+    </FactionTrait>
+	
+    <FactionTrait Name="FactionTraitMinorGeneHunterSowers" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartSowers" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+        <Command Name="AddMinorPopulation" Arguments="AffinitySowers,1" Priority="100"/>
+        <SimulationDescriptorReference Name="FactionTraitMinorSowers"/>
+        <Prerequisites>AffinityGameplayHoratio</Prerequisites>
+    </FactionTrait>
+
+    <FactionTrait Name="FactionTraitMinorGeneHunterKalTikMas" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartKalTikMas" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+        <Command Name="AddMinorPopulation" Arguments="AffinityKalTikMas,1" Priority="100"/>
+        <SimulationDescriptorReference Name="FactionTraitMinorKalTikMas"/>
+        <Prerequisites>AffinityGameplayHoratio</Prerequisites> 
+    </FactionTrait>
+
+    <FactionTrait Name="FactionTraitMinorGeneHunterSefaloros" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartSefaloros" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+        <Command Name="AddMinorPopulation" Arguments="AffinitySefaloros,1" Priority="100"/>
+        <SimulationDescriptorReference Name="FactionTraitMinorSefaloros"/>
+        <Prerequisites>AffinityGameplayHoratio</Prerequisites> 
+    </FactionTrait>
+
+    <FactionTrait Name="FactionTraitMinorGeneHunterGalvrans" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartGalvrans" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+        <Command Name="AddMinorPopulation" Arguments="AffinityGalvrans,1" Priority="100"/>
+        <SimulationDescriptorReference Name="FactionTraitMinorGalvrans"/>
+        <Prerequisites>AffinityGameplayHoratio</Prerequisites> 
+    </FactionTrait>
+    
+    <FactionTrait Name="FactionTraitMinorGeneHunterMinorOraculars" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartOraculars" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+        <Command Name="AddMinorPopulation" Arguments="AffinityMinorOraculars,1" Priority="100"/>
+        <SimulationDescriptorReference Name="FactionTraitMinorMinorOraculars"/>
+        <Prerequisites>AffinityGameplayHoratio</Prerequisites>
+    </FactionTrait>
+
+    <FactionTrait Name="FactionTraitMinorGeneHunterMinorHacking" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartMinorHacking" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+        <Command Name="AddMinorPopulation" Arguments="AffinityMinorHacking,1" Priority="100"/>
+        <SimulationDescriptorReference Name="FactionTraitMinorMinorHacking"/>
+        <Prerequisites>AffinityGameplayHoratio</Prerequisites> 
+    </FactionTrait>
+
+    <FactionTrait Name="FactionTraitMinorGeneHunterIllo" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartIllo" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+        <Command Name="AddMinorPopulation" Arguments="AffinityIllo,1" Priority="100"/>
+        <SimulationDescriptorReference Name="FactionTraitMinorIllo"/>
+        <Prerequisites>AffinityGameplayHoratio</Prerequisites> 
+    </FactionTrait>
+
+    <FactionTrait Name="FactionTraitMinorGeneHunterSistersOfMercy" SubCategory="FactionTrait" TraitCategory="TraitCategoryPopulation" TraitSubCategory="TraitSubCategoryStartSistersOfMercy" Family="FactionTraitFamilyStartingMinorPopulation" Hidden="false" Custom="true" Cost="5">
+        <Command Name="AddMinorPopulation" Arguments="AffinitySistersOfMercy,1" Priority="100"/>
+        <SimulationDescriptorReference Name="FactionTraitMinorSistersOfMercy"/>
+        <Prerequisites>AffinityGameplayHoratio</Prerequisites> 
+    </FactionTrait>
+</Datatable>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitPrimaryProcessingPower01" Type="ClassPopulationPlanet">
+        <Modifier TargetProperty="BonusPopulationProcessingPower"                           Operation="Addition" Value="2" Path="ClassPopulation"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitPrimaryProcessingPowerOnSmall01" Type="ClassPopulationPlanet">
+        <Modifier       TargetProperty="BonusPopulationProcessingPower"    Operation="Addition"    Value="2"   Path="FAKEFORGUI/./PlanetSizeSmall"/>
+        <BinaryModifier TargetProperty="BonusPopulationProcessingPower"    Operation="Addition"    Left="2"    BinaryOperation="Multiplication" Right="$(PlanetIsSmall)" TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitPrimaryProcessingPower01" Type="WithPopulationPlanet">
+        <Modifier TargetProperty="BonusPopulationProcessingPower"           Operation="Addition"    Value="2"   Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitPrimaryProcessingPower01,ClassPopulation"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitPrimaryProcessingPowerOnSmall01" Type="WithPopulationPlanet">
+        <Modifier       TargetProperty="BonusPopulationProcessingPower"             Operation="Addition"    Value="2"   Path="FAKEFORGUI/./PlanetSizeSmall"/>
+        <Modifier       TargetProperty="BonusPopulationProcessingPower"             Operation="Addition"    Value="2"   Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/PlanetSizeSmall/ClassPopulationPlanetModifiersTraitPrimaryProcessingPowerOnSmall01" TooltipHidden="true" />
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetProcessingPower01" Type="ClassPopulationAssimilated">
+        <Modifier       TargetProperty="BonusPopulationProcessingPower"         Operation="Addition"    Value="2"   Path="ClassPopulation"/>
+    </SimulationDescriptor>
+</Datatable>

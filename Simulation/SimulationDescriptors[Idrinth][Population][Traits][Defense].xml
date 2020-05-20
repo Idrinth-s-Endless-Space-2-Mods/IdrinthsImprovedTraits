@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitPrimaryDefense" Type="ClassPopulationPlanet">
+        <Modifier TargetProperty="BonusPopulationDefense" Operation="Addition" Value="35" Path="ClassPopulation"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryDefenseFertile" Type="ClassPopulationPlanet">
+        <Modifier       TargetProperty="BonusPopulationDefense"     Operation="Addition"    Value="50"  Path="FAKEFORGUI/./PlanetGameplayTypeTeeming"/>
+        <BinaryModifier TargetProperty="BonusPopulationDefense"     Operation="Addition"    Left="50"   BinaryOperation="Multiplication" Right="$(PlanetIsTeeming)" TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryDefenseSterile" Type="ClassPopulationPlanet">
+        <Modifier       TargetProperty="BonusPopulationDefense"	Operation="Addition"    Value="50" Path="FAKEFORGUI/./PlanetGameplayTypeMeager"/>
+        <BinaryModifier TargetProperty="BonusPopulationDefense" Operation="Addition"    Left="50"  BinaryOperation="Multiplication" Right="$(PlanetIsMeager)" TooltipHidden="true"/>
+    </SimulationDescriptor>
+</Datatable>

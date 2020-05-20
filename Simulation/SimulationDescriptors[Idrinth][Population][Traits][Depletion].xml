@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryAntiDepletion01" Type="ClassPopulationPlanet">
+        <Modifier   TargetProperty="PlanetDepletionPerTurn"     Operation="Subtraction"     Value="0.5"       Path="FAKEFORGUI/./ClassPlanet"/>
+        <Modifier   TargetProperty="RepletionPerTurn"           Operation="Addition"        Value="0.5"       TooltipHidden="true"/>
+        <Modifier TargetProperty="BonusPopulationFood"    Operation="Addition"    Value="1"/>
+        <Modifier       TargetProperty="BonusPopulationFood"	Operation="Addition"    Value="1" Path="FAKEFORGUI/./PlanetGameplayTypeMeager"/>
+        <BinaryModifier TargetProperty="BonusPopulationFood" Operation="Addition"    Left="1"  BinaryOperation="Multiplication" Right="$(PlanetIsMeager)" TooltipHidden="true"/>
+        <Modifier       TargetProperty="BonusPopulationHappiness"     Operation="Subtraction"    Value="1"  Path="FAKEFORGUI/./PlanetGameplayTypeTeeming"/>
+        <BinaryModifier TargetProperty="BonusPopulationHappiness"     Operation="Subtraction"    Left="1"   BinaryOperation="Multiplication" Right="$(PlanetIsTeeming)" TooltipHidden="true"/>
+    </SimulationDescriptor>
+</Datatable>

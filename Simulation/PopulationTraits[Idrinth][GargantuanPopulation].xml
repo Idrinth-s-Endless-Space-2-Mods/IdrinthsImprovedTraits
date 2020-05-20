@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationModifiersTrait.xsd">
+    <!--Local Bonus: Gargantuan Populations-->
+    <PopulationModifiersTrait Name="PopulationModifiersTraitPrimarySlowGrowthFIDS" SubCategory="Primary" ShowInCustom="true" Cost="15">
+        <Modifiers>
+            <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
+                <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitPrimarySlowGrowthFIDS"/>
+            </Modifier>
+            <Modifier Class="ClassPopulationStarSystem">
+                <!--Up to -50% food-->
+                <SimulationDescriptorReference Name="ClassPopulationStarSystemModifiersTraitPrimarySlowGrowthFIDS"/>
+            </Modifier>
+            <Modifier Class="ClassPopulationPlanet">
+                <!--+4 FIDS-->
+                <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPrimarySlowGrowthFIDS"/>
+            </Modifier>
+            <Modifier Class="ClassPopulationPlanet">
+                <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPrimaryGroundBattleAttackerDamage"/>
+            </Modifier>
+            <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true">
+                <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPrimarySlowGrowthFIDS"/>
+            </Modifier>
+            <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true">
+                <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPrimaryGroundBattleAttackerDamage"/>
+            </Modifier>
+        </Modifiers>
+
+        <AssimilatedModifiers>
+            <Modifier Class="ClassPopulationPlanet">
+                <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetFIDS"/>
+            </Modifier>
+            <Modifier Class="ClassPopulationPlanet">
+                <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetGroundBattleAttackerDamage"/>
+            </Modifier>
+        </AssimilatedModifiers>
+    </PopulationModifiersTrait>
+</Datatable>

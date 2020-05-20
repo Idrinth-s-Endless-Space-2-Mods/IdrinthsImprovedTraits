@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetGroundBattleAttackerDamage" Type="ClassPopulationAssimilated">
+        <Modifier TargetProperty="BonusPopulationGroundBattleBombardmentAttackerDamages" Operation="Addition" Value="50" Path="ClassPopulation"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitPrimaryGroundBattleAttackerDamage" Type="ClassPopulationPlanet">
+        <Modifier TargetProperty="BonusPopulationGroundBattleBombardmentAttackerDamages" Operation="Addition" Value="75" Path="ClassPopulation"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitPrimaryGroundBattleAttackerDamage" Type="WithPopulationPlanet">
+        <Modifier TargetProperty="BonusPopulationGroundBattleBombardmentAttackerDamages" Operation="Addition" Value="75"  Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetModifiersTraitPrimaryGroundBattleAttackerDamage,ClassPopulation"/>
+    </SimulationDescriptor>
+    <!-- Small -->
+    <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetGroundBattleAttackerDamage01" Type="ClassPopulationAssimilated">
+        <Modifier       TargetProperty="BonusPopulationGroundBattleBombardmentAttackerDamages"      Operation="Addition"    Value="30"  Path="ClassPopulation"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryGroundBattleAttackerDamage01" Type="WithPopulationPlanet">
+        <Modifier TargetProperty="BonusPopulationGroundBattleBombardmentAttackerDamages"    Operation="Addition" Value="50" Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/ClassPlanet/ClassPopulationPlanetAffinityVaulters,ClassPopulation"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryGroundBattleAttackerDamage01" Type="ClassPopulationPlanet">
+        <Modifier       TargetProperty="BonusPopulationGroundBattleBombardmentAttackerDamages"  Operation="Addition"    Value="50" Path="ClassPopulation"/>
+    </SimulationDescriptor>
+    <!-- Fertile -->
+    <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetGroundBattleAttackerDamageFertile" Type="ClassPopulationAssimilated">
+        <Modifier TargetProperty="BonusPopulationGroundBattleBombardmentAttackerDamages" Operation="Addition" Value="20" Path="ClassPopulation"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="WithPopulationPlanetModifiersTraitSecondaryGroundBattleAttackerDamageFertile" Type="WithPopulationPlanet">
+        <Modifier TargetProperty="BonusPopulationGroundBattleBombardmentAttackerDamages"   Operation="Addition" Value="75"     Path="FAKEFORGUI/./PlanetGameplayTypeTeeming"/>
+        <Modifier TargetProperty="BonusPopulationGroundBattleBombardmentAttackerDamages"   Operation="Addition" Value="75"     Path="PopulationGrowthScoreBoosted/./ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeTeeming/ClassPopulationPlanetModifiersTraitSecondaryGroundBattleAttackerDamageFertile" TooltipHidden="true"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="ClassPopulationPlanetModifiersTraitSecondaryGroundBattleAttackerDamageFertile" Type="ClassPopulationPlanet">
+        <Modifier       TargetProperty="BonusPopulationGroundBattleBombardmentAttackerDamages"  Operation="Addition"    Value="75"  Path="FAKEFORGUI/./PlanetGameplayTypeTeeming"/>
+        <BinaryModifier TargetProperty="BonusPopulationGroundBattleBombardmentAttackerDamages"  Operation="Addition"    Left="75"   BinaryOperation="Multiplication" Right="$(PlanetIsTeeming)" TooltipHidden="true"/>
+    </SimulationDescriptor>
+</Datatable>

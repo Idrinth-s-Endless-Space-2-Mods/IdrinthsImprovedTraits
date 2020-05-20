@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.ExtendedGuiElement.xsd">
+    <AffinityGuiElement Name="AffinityMappingGeneHunterSistersOfMercy">
+        <Title>%AffinityGameplaySistersOfMercyTitle</Title>
+        <Description>%AffinityGameplaySistersOfMercyDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Affinities/AffinitySistersOfMercySmall" />
+            <Icon Size="Medium" Path="Bitmaps/Atlased/Affinities/AffinitySistersOfMercyMedium" />
+            <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinitySistersOfMercyMediumInverted" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Affinities/AffinitySistersOfMercyLarge" />
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/Affinities/AffinitySistersOfMercyMood" />
+        </Icons>
+        <SymbolString>[sistersOfMercy]</SymbolString>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </AffinityGuiElement>
+    <AffinityGuiElement Name="AffinityMappingGeneHunterDeuyivans">
+        <Title>%AffinityDeuyivansTitle</Title>
+        <Description>%AffinityDeuyivansDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Affinities/AffinityDeuyivansSmall" />
+            <Icon Size="Medium" Path="Bitmaps/Atlased/Affinities/AffinityDeuyivansMedium" />
+            <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityDeuyivansMediumInverted" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Affinities/AffinityDeuyivansLarge" />
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/Affinities/AffinityDeuyivansMood" />
+        </Icons>
+        <SymbolString>[deuyivans]</SymbolString>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </AffinityGuiElement>
+    <AffinityGuiElement Name="AffinityMappingGeneHunterRemnant">
+        <Title>%AffinityGameplayRemnantTitle</Title>
+        <Description>%AffinityGameplayRemnantDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Affinities/AffinityRemnantSmall" />
+            <Icon Size="Medium" Path="Bitmaps/Atlased/Affinities/AffinityRemnantMedium" />
+            <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityRemnantMediumInverted" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Affinities/AffinityRemnantLarge" />
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/Affinities/AffinityRemnantMood" />
+        </Icons>
+        <SymbolString>[remnants]</SymbolString>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </AffinityGuiElement>
+    <AffinityGuiElement Name="AffinityMappingGeneHunterGreenman">
+        <Title>%AffinityGameplayGreenmanTitle</Title>
+        <Description>%AffinityGameplayGreenmanDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Affinities/AffinityGreenmanSmall" />
+            <Icon Size="Medium" Path="Bitmaps/Atlased/Affinities/AffinityGreenmanMedium" />
+            <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityGreenmanMediumInverted" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Affinities/AffinityGreenmanLarge" />
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/Affinities/AffinityGreenmanMood" />
+        </Icons>
+        <SymbolString>[greenman]</SymbolString>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </AffinityGuiElement>
+    <AffinityGuiElement Name="AffinityMappingGeneHunterMinorOraculars">
+        <Title>%AffinityGameplayMinorOracularsTitle</Title>
+        <Description>%AffinityGameplayMinorOracularsDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Affinities/AffinityMinorOracularsSmall" />
+            <Icon Size="Medium" Path="Bitmaps/Atlased/Affinities/AffinityMinorOracularsMedium" />
+            <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityMinorOracularsMediumInverted" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Affinities/AffinityMinorOracularsLarge" />
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/Affinities/AffinityMinorOracularsMood" />
+        </Icons>
+        <SymbolString>[oracular]</SymbolString>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </AffinityGuiElement>    
+    <AffinityGuiElement Name="AffinityMappingGeneHunterAmoeba">
+        <Title>%AffinityAmoebaTitle</Title>
+        <Description>%AffinityAmoebaDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Affinities/AffinityAmoebaSmall" />
+            <Icon Size="Medium" Path="Bitmaps/Atlased/Affinities/AffinityAmoebaMedium" />
+            <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityAmoebaMediumInverted" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Affinities/AffinityAmoebaLarge" />
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/Affinities/AffinityAmoebaMood" />
+        </Icons>
+        <SymbolString>[amoebas]</SymbolString>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </AffinityGuiElement>	
+    <AffinityGuiElement Name="AffinityMappingGeneHunterBhagabas">
+        <Title>%AffinityGameplayBhagabasTitle</Title>
+        <Description>%AffinityGameplayBhagabasDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Affinities/AffinityBhagabasSmall" />
+            <Icon Size="Medium" Path="Bitmaps/Atlased/Affinities/AffinityBhagabasMedium" />
+            <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityBhagabasMediumInverted" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Affinities/AffinityBhagabasLarge" />
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/Affinities/AffinityBhagabasMood" />
+        </Icons>
+        <SymbolString>[bhagabas]</SymbolString>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </AffinityGuiElement>
+    <AffinityGuiElement Name="AffinityMappingGeneHunterRemnant">
+        <Title>%AffinityGameplayRemnantTitle</Title>
+        <Description>%AffinityGameplayRemnantDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Affinities/AffinityRemnantSmall" />
+            <Icon Size="Medium" Path="Bitmaps/Atlased/Affinities/AffinityRemnantMedium" />
+            <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityRemnantMediumInverted" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Affinities/AffinityRemnantLarge" />
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/Affinities/AffinityRemnantMood" />
+        </Icons>
+        <SymbolString>[remnants]</SymbolString>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </AffinityGuiElement>
+    <AffinityGuiElement Name="AffinityMappingGeneHunterHisshos">
+        <Title>%AffinityHisshosTitle</Title>
+        <Description>%AffinityHisshosDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Affinities/AffinityHisshosSmall" />
+            <Icon Size="Medium" Path="Bitmaps/Atlased/Affinities/AffinityHisshosMedium" />
+            <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHisshosMediumInverted" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Affinities/AffinityHisshosLarge" />
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/Affinities/AffinityHisshosMood" />
+        </Icons>
+        <SymbolString>[hisshos]</SymbolString>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </AffinityGuiElement> 
+    <AffinityGuiElement Name="AffinityMappingGeneHunterZvali">
+        <Title>%AffinityZvaliTitle</Title>
+        <Description>%AffinityZvaliDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Affinities/AffinityZvaliSmall" />
+            <Icon Size="Medium" Path="Bitmaps/Atlased/Affinities/AffinityZvaliMedium" />
+            <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityZvaliMediumInverted" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Affinities/AffinityZvaliLarge" />
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/Affinities/AffinityZvaliMood" />
+        </Icons>
+        <SymbolString>[zvalis]</SymbolString>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </AffinityGuiElement>
+    <AffinityGuiElement Name="AffinityMappingGeneHunterSowers">
+        <Title>%AffinityGameplaySowersTitle</Title>
+        <Description>%AffinityGameplaySowersDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Affinities/AffinitySowersSmall" />
+            <Icon Size="Medium" Path="Bitmaps/Atlased/Affinities/AffinitySowersMedium" />
+            <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinitySowersMediumInverted" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Affinities/AffinitySowersLarge" />
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/Affinities/AffinitySowersMood" />
+        </Icons>
+        <SymbolString>[sowers]</SymbolString>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </AffinityGuiElement>
+    <AffinityGuiElement Name="AffinityMappingGeneHunterSefaloros">
+        <Title>%AffinityGameplaySefalorosTitle</Title>
+        <Description>%AffinityGameplaySefalorosDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Affinities/AffinitySefalorosSmall" />
+            <Icon Size="Medium" Path="Bitmaps/Atlased/Affinities/AffinitySefalorosMedium" />
+            <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinitySefalorosMediumInverted" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Affinities/AffinitySefalorosLarge" />
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/Affinities/AffinitySefalorosMood" />
+        </Icons>
+        <SymbolString>[sefaloros]</SymbolString>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </AffinityGuiElement>
+      <AffinityGuiElement Name="AffinityMappingGeneHunterHarmony">
+        <Title>%AffinityGameplayHarmonyTitle</Title>
+        <Description>%AffinityGameplayHarmonyDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Affinities/AffinityHarmonySmall" />
+            <Icon Size="Medium" Path="Bitmaps/Atlased/Affinities/AffinityHarmonyMedium" />
+            <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHarmonyMediumInverted" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Affinities/AffinityHarmonyLarge" />
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/Affinities/AffinityHarmonyMood" />
+        </Icons>
+        <SymbolString>[harmony]</SymbolString>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </AffinityGuiElement>
+    <AffinityGuiElement Name="AffinityMappingGeneHunterPulsos">
+        <Title>%AffinityGameplayPulsosTitle</Title>
+        <Description>%AffinityGameplayPulsosDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Affinities/AffinityPulsosSmall" />
+            <Icon Size="Medium" Path="Bitmaps/Atlased/Affinities/AffinityPulsosMedium" />
+            <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityPulsosMediumInverted" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Affinities/AffinityPulsosLarge" />
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/Affinities/AffinityPulsosMood" />
+        </Icons>
+        <SymbolString>[pulsos]</SymbolString>
+        <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </AffinityGuiElement>
+</Datatable>

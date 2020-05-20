@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.ExtendedGuiElement.xsd">
+    <ExtendedGuiElement Name="FactionTraitMinorGeneHunterSistersOfMercy">
+        <Title>%FactionTraitMinorSistersOfMercyTitle</Title>
+        <Description>%FactionTraitMinorSistersOfMercyDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitMinorSistersOfMercyTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="FactionTraitMinorGeneHunterIllo">
+        <Title>%FactionTraitMinorIlloTitle</Title>
+        <Description>%FactionTraitMinorIlloDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitMinorIlloTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="FactionTraitMinorGeneHunterMinorHacking">
+        <Title>%FactionTraitMinorMinorHackingTitle</Title>
+        <Description>%FactionTraitMinorMinorHackingDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitMinorMinorHackingTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="FactionTraitMinorGeneHunterMinorOraculars">
+        <Title>%FactionTraitMinorOracularsTitle</Title>
+        <Description>%FactionTraitMinorOracularsDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitMinorOracularsTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="FactionTraitMinorGeneHunterGalvrans">
+        <Title>%FactionTraitMinorGalvransTitle</Title>
+        <Description>%FactionTraitMinorGalvransDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitMinorGalvransTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="FactionTraitMinorGeneHunterSefaloros">
+        <Title>%FactionTraitMinorSefalorosTitle</Title>
+        <Description>%FactionTraitMinorSefalorosDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitMinorSefalorosTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="FactionTraitMinorGeneHunterKalTikMas">
+        <Title>%FactionTraitMinorKalTikMasTitle</Title>
+        <Description>%FactionTraitMinorKalTikMasDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitMinorKalTikMasTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="FactionTraitMinorGeneHunterSowers">
+        <Title>%FactionTraitMinorSowersTitle</Title>
+        <Description>%FactionTraitMinorSowersDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitMinorSowersTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="FactionTraitMinorGeneHunterHarmony">
+        <Title>%FactionTraitMinorHarmonyTitle</Title>
+        <Description>%FactionTraitMinorHarmonyDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitMinorHarmonyTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="FactionTraitMinorGeneHunterGreenman">
+        <Title>%FactionTraitMinorGreenmanTitle</Title>
+        <Description>%FactionTraitMinorGreenmanDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitMinorGreenmanTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="FactionTraitMinorGeneHunterBasryxo">
+        <Title>%FactionTraitMinorBasryxoTitle</Title>
+        <Description>%FactionTraitMinorBasryxoDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitMinorBasryxoTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="FactionTraitMinorGeneHunterPulsos">
+        <Title>%FactionTraitMinorPulsosTitle</Title>
+        <Description>%FactionTraitMinorPulsosDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitMinorPulsosTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="FactionTraitMinorGeneHunterRemnant">
+        <Title>%FactionTraitMinorRemnantsTitle</Title>
+        <Description>%FactionTraitMinorRemnantsDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitRemnantsTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="FactionTraitMinorGeneHunterBhagabas">
+        <Title>%FactionTraitMinorBhagabasTitle</Title>
+        <Description>%FactionTraitMinorBhagabasDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitMinorBhagabasTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="FactionTraitMinorGeneHunterNiris">
+        <Title>%FactionTraitMinorNirisTitle</Title>
+        <Description>%FactionTraitMinorNirisDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitMinorNirisTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="FactionTraitMinorGeneHunterEyders">
+        <Title>%FactionTraitMinorEydersTitle</Title>
+        <Description>%FactionTraitMinorEydersDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitMinorEydersTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="FactionTraitMinorGeneHunterGnashasts">
+        <Title>%FactionTraitMinorGnashastsTitle</Title>
+        <Description>%FactionTraitMinorGnashastsDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitMinorGnashastsTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="FactionTraitMinorGeneHunterTikanans">
+        <Title>%FactionTraitMinorTikanansTitle</Title>
+        <Description>%FactionTraitMinorTikanansDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitMinorTikanansTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="FactionTraitMinorGeneHunterZvali">
+        <Title>%FactionTraitMinorZvaliTitle</Title>
+        <Description>%FactionTraitMinorZvaliDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitMinorZvaliTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="FactionTraitMinorGeneHunterPilgrims">
+        <Title>%FactionTraitMinorPilgrimsTitle</Title>
+        <Description>%FactionTraitMinorPilgrimsDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitMinorPilgrimsTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="FactionTraitMinorGeneHunterMavros">
+        <Title>%FactionTraitMinorMavrosTitle</Title>
+        <Description>%FactionTraitMinorMavrosDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitMinorMavrosTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="FactionTraitMinorGeneHunterHisshos">
+        <Title>%FactionTraitMinorHisshosTitle</Title>
+        <Description>%FactionTraitMinorHisshosDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitMinorHisshosTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="FactionTraitMinorGeneHunterHaroshems">
+        <Title>%FactionTraitMinorHaroshemsTitle</Title>
+        <Description>%FactionTraitMinorHaroshemsDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitMinorHaroshemsTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="FactionTraitMinorGeneHunterDeuyivans">
+        <Title>%FactionTraitMinorDeuyivansTitle</Title>
+        <Description>%FactionTraitMinorDeuyivansDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitMinorDeuyivansTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="FactionTraitMinorGeneHunterBots">
+        <Title>%FactionTraitMinorBotsTitle</Title>
+        <Description>%FactionTraitMinorBotsDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitMinorBotsTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="FactionTraitMinorGeneHunterBenthys">
+        <Title>%FactionTraitMinorBenthysTitle</Title>
+        <Description>%FactionTraitMinorBenthysDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitMinorBenthysTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+    
+    <ExtendedGuiElement Name="FactionTraitMinorGeneHunterAmoeba">
+        <Title>%FactionTraitMinorAmoebaTitle</Title>
+        <Description>%FactionTraitMinorAmoebaDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%FactionTraitMinorAmoebaTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+</Datatable>
