@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor Name="FactionTraitInimical" Type="FactionTrait"> <!--Biophobic-->
+        <BinaryModifier     TargetProperty="Happiness"          Operation="Addition" Left="10" BinaryOperation="Multiplication" Right="$(Population)"    Path="ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeMeager" SearchValueFromPath="true"  />
+        <BinaryModifier     TargetProperty="Happiness"          Operation="Addition" Left="-2" BinaryOperation="Multiplication" Right="$(Population)"    Path="ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeTeeming" SearchValueFromPath="true"  />
+        <Modifier TargetProperty="MaximumPopulation"        Operation="Addition"  Value="1"   Path="ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeMeager"/>
+        <Modifier TargetProperty="MaximumPopulation"        Operation="Addition"  Value="-1"   Path="ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeTeeming"/>
+        <Modifier TargetProperty="MaximumPopulation"        Operation="Addition"  Value="1"   Path="ClassEmpire/ClassColonizedStarSystem/PlanetGameplayTypeGas"/>
+    </SimulationDescriptor>
+</Datatable>

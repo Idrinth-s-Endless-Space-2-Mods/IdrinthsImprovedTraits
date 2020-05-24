@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor Name="FactionTraitFastTraveler1" Type="FactionTrait">
+        <Modifier TargetProperty="GlobalSpeed"        Operation="Percent"  Value="0.15"   Path="ClassEmpire/ClassGarrison/ClassShip"/>
+        <Modifier TargetProperty="MaximumMovement"        Operation="Addition"  Value="1"   Path="ClassEmpire/ClassGarrison/ClassShip"/>
+        <Modifier TargetProperty="MaximumMovement"        Operation="Addition"  Value="1"   Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip" TooltipHidden="true"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="FactionTraitFastTraveler2" Type="FactionTrait">
+        <Modifier TargetProperty="GlobalSpeed"        Operation="Percent"  Value="0.05"   Path="ClassEmpire/ClassGarrison/ClassShip"/>
+        <Modifier TargetProperty="MaximumMovement"        Operation="Addition"  Value="2"   Path="ClassEmpire/ClassGarrison/ClassShip"/>
+        <Modifier TargetProperty="MaximumMovement"        Operation="Addition"  Value="2"   Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip" TooltipHidden="true"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="FactionTraitSlowTraveler1" Type="FactionTrait">
+        <Modifier TargetProperty="GlobalSpeed"        Operation="Percent"  Value="-0.04"   Path="ClassEmpire/ClassGarrison/ClassShip"/>
+        <Modifier TargetProperty="MaximumMovement"        Operation="Addition"  Value="-1"   Path="ClassEmpire/ClassGarrison/ClassShip"/>
+        <Modifier TargetProperty="MaximumMovement"        Operation="Addition"  Value="-1"   Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip" TooltipHidden="true"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="FactionTraitSlowTraveler2" Type="FactionTrait">
+        <Modifier TargetProperty="GlobalSpeed"        Operation="Percent"  Value="-0.12"   Path="ClassEmpire/ClassGarrison/ClassShip"/>
+        <Modifier TargetProperty="MaximumMovement"        Operation="Addition"  Value="-2"   Path="ClassEmpire/ClassGarrison/ClassShip"/>
+        <Modifier TargetProperty="MaximumMovement"        Operation="Addition"  Value="-2"   Path="ClassEmpire/ClassColonizedStarSystem/ClassGarrison/ClassShip" TooltipHidden="true"/>
+    </SimulationDescriptor>
+</Datatable>
