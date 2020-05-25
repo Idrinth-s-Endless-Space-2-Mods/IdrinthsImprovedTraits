@@ -10,4 +10,8 @@
         <Modifier TargetProperty="MaximumCommandPoints" Operation="Percent" Value="0.1" Path="ClassEmpire"/>
         <Modifier TargetProperty="GarrisonMoneyUpkeep"  Operation="Percent"  Value="-0.25" Path="ClassEmpire//ClassGarrison/ClassShip"/>
     </SimulationDescriptor>
+    <SimulationDescriptor Name="FactionTraitSubOptimalDefense" Type="FactionTrait">
+        <Modifier TargetProperty="MaximumHealth" Operation="Percent" Value="-0.01" Path="ClassEmpire/ClassGarrison/ClassShip/ClassSection,ClassSectionCore" TooltipHidden="true"/>
+        <Modifier TargetProperty="MaximumShield" Operation="Percent" Value="-0.25" Path="ClassEmpire/ClassGarrison/ClassShip" TooltipHidden="true"/>
+    </SimulationDescriptor>
 </Datatable>

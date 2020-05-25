@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor Name="FactionTraitSocialChameleons" Type="FactionTrait">
+        <BinaryModifier TargetProperty="SystemMoney" Operation="Percent" Left="0.05" BinaryOperation="Multiplication" Right="$(AllianceCount)" Path="ClassEmpire/ClassColonizedStarSystem"/>
+        <BinaryModifier TargetProperty="SystemProduction" Operation="Percent" Left="0.05" BinaryOperation="Multiplication" Right="$(WarCount)" Path="ClassEmpire/ClassColonizedStarSystem"/>
+        <!--ADDED-->
+        <BinaryModifier TargetProperty="SystemEmpirePoint" Operation="Addition" Left="5" BinaryOperation="Multiplication" Right="$(WarCount)" Path="ClassEmpire/ClassColonizedStarSystem"/>
+        <BinaryModifier TargetProperty="SystemEmpirePoint" Operation="Addition" Left="5" BinaryOperation="Multiplication" Right="$(AllianceCount)" Path="ClassEmpire/ClassColonizedStarSystem"/>
+        <BinaryModifier TargetProperty="SystemEmpirePoint" Operation="Addition" Left="15" BinaryOperation="Multiplication" Right="$(ColdWarCount)" Path="ClassEmpire/ClassColonizedStarSystem"/>
+        <BinaryModifier TargetProperty="SystemEmpirePoint" Operation="Addition" Left="10" BinaryOperation="Multiplication" Right="$(PeaceCount)" Path="ClassEmpire/ClassColonizedStarSystem"/>
+        <BinaryModifier TargetProperty="SystemEmpirePoint" Operation="Addition" Left="10" BinaryOperation="Multiplication" Right="$(TruceCount)" Path="ClassEmpire/ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+</Datatable>
