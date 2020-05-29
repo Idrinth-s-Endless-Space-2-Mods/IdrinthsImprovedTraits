@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
 
     <RuntimeModule Name="IdrinthsImprovedTraits" Type="Extension" Version="0.11">
 
         <Title>Idrinth's Improved Traits</Title>
-		
+
         <Description>Tries to rebalance population and empire traits to make them more useful across the whole game and a bit less situational.
             
             Currently adjusted traits are:
