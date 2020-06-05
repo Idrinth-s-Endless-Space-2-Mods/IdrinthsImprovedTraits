@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor Name="FactionTraitBonusHackingSpeed"    Type="FactionTrait">
+        <Modifier TargetProperty="HackingWarpSpeed"     Value="0.10"  Operation="Percent" Path="ClassEmpire"/>
+        <Modifier TargetProperty="HackingNonWarpSpeed"  Value="0.10"  Operation="Percent" Path="ClassEmpire"/>
+        <Modifier TargetProperty="HackingNodeSpeed"     Value="0.10"  Operation="Percent" Path="ClassEmpire"/>
+        <!-- ADDED -->
+        <Modifier TargetProperty="HackingWarpSpeed"     Value="0.10"  Operation="Percent" Path="ClassEmpire"/>
+        <Modifier TargetProperty="HackingNonWarpSpeed"  Value="0.15"  Operation="Percent" Path="ClassEmpire"/>
+        <Modifier TargetProperty="HackingNodeSpeed"     Value="0.05"  Operation="Percent" Path="ClassEmpire"/>
+    </SimulationDescriptor>
+</Datatable>
