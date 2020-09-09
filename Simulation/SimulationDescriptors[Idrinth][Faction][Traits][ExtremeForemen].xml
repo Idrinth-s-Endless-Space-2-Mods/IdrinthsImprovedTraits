@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor Name="FactionTraitExtremeForemen" Type="FactionTrait">
+        <BinaryModifier TargetProperty="PlanetDepletionPerTurn" Operation="Addition" Left="0.75" BinaryOperation="Multiplication" Right="$(Population)" Path="ClassEmpire//ClassPlanet"/>
+        <Modifier TargetProperty="BonusPopulationFIDSPercent" Operation="Addition" Value="1" Path="ClassEmpire//ClassPopulationPlanet"/>
+    </SimulationDescriptor>
+</Datatable>

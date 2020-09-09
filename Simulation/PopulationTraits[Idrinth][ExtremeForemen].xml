@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationModifiersTrait.xsd">
+    <!--Local Bonus: Extreme Foremen -->
+    <PopulationModifiersTrait Name="PopulationModifiersTraitPrimaryDepletionFIDS" SubCategory="Primary" ShowInCustom="false" Cost="15">
+        <Tags>PlanetDepletionPerTurn,BonusPopulationFIDSPercent</Tags>
+        <Command Name="SetHomePlanetDepletion"          Arguments="0.25"/>
+        <Modifiers>
+            <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
+                <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitPrimaryDepletionFIDS"/>
+            </Modifier>
+            <Modifier Class="ClassPopulationPlanet">
+                <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPrimaryDepletionFIDS"/>
+                <SimulationDescriptorReference Name="PopulationExploitingPlanetWhileDepleting"/>
+            </Modifier>
+            <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true">
+                <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPrimaryDepletionFIDS"/>
+            </Modifier>
+        </Modifiers>
+
+        <AssimilatedModifiers>
+            <Modifier Class="ClassPopulationPlanet">
+                <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetDepletionFIDS"/>
+            </Modifier>
+        </AssimilatedModifiers>
+    </PopulationModifiersTrait>
+</Datatable>

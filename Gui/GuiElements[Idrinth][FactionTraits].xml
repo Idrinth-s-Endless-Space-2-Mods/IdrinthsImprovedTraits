@@ -215,4 +215,12 @@
             <EffectOverride>%FactionTraitMinorAmoebaTooltipEffect</EffectOverride>
         </TooltipElement>
     </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="FactionTraitExtremeForemen">
+        <Title>%PopulationModifiersTraitCraversPrimaryTitle</Title>
+        <Description>%PopulationModifiersTraitCraversPrimaryDescription</Description>
+        <TooltipElement>
+            <EffectOverride>%PopulationModifiersTraitCraversPrimaryTooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
 </Datatable>

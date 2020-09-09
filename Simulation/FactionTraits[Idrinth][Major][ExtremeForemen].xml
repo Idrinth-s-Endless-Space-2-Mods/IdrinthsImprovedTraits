@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationModifiersTrait.xsd">
+    <FactionTrait Name="FactionTraitExtremeForemen" SubCategory="FactionTrait" TraitCategory="TraitCategoryEconomy" TraitSubCategory="TraitSubCategoryForement" Family="TraitSubCategoryForement" Hidden="false" Custom="true" Cost="15">
+        <SimulationDescriptorReference Name="FactionTraitExtremeForemen"/>
+        <Prerequisites>!AffinityGameplayUmbralChoir</Prerequisites> 
+    </FactionTrait>
+</Datatable>
